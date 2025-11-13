@@ -1,7 +1,7 @@
 ---
-- name: Preconfig
-  hosts: demo
+- name: Preconfig block
   become: true
+  hosts: demo
   tasks:
     - name: Установка Docker
       block:

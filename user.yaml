@@ -1,12 +1,12 @@
 ---
-- name: user
+- name: User
   hosts: demo
   tasks:
     - name: Preconfig block
+      become: true
       block:
         - name: Reboot
-          shell: "sleep 2 && reboot"
+          ansible.builtin.shell: "sleep 2 && reboot"
           async: 1000
           poll: 0
-      become: true
-
+          changed_when: false

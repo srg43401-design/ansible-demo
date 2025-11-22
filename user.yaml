@@ -1,6 +1,6 @@
 ---
 - name: User
-  hosts: demo
+  hosts: cluster
   tasks:
     - name: Preconfig block
       become: true

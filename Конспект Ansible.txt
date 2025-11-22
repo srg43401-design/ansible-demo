@@ -748,17 +748,8 @@ repos:
       # Uncomment if you need the full Ansible community bundle instead of ansible-core:
       # additional_dependencies:
       #   - ansible
-______________________________________
-______________________________________
-______________________________________
-______________________________________
-______________________________________
 
-https://github.com/settings/tokens
-Personal access tokens (classic)
-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
-
-______________________________________
+_____________________________________
 ______________________________________
 ______________________________________
 ______________________________________

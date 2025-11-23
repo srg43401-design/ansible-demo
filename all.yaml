@@ -1,0 +1,16 @@
+---
+- name: All configs
+  hosts: cluster
+  become: true
+  tasks:
+    - name: First deploy
+      ansible.builtin.include_role:
+        name: deploy
+      vars:
+        deploy_message: "message 1"
+
+    - name: Second deploy
+      ansible.builtin.include_role:
+        name: deploy
+      vars:
+        deploy_message: "message 2"

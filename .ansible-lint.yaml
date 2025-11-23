@@ -3,10 +3,10 @@ warn_list:
   - name[casing]  # Отключить ложные срабатывания имен
   - key-order  # Отключить проверку порядка ключей
   - fqcn  # Отключить FQCN проверки
-  
+
 skip_list:
   - no-changed-when  # Пропустить для reboot
-  
+
 exclude_paths:
   - .cache/
   - .git/
